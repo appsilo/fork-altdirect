@@ -96,7 +96,7 @@ Together, they appear as:
 Pretty nice, huh?
 
 >[!WARNING]
->Those experienced with html may wonder, why the extra `h3` tag and `&nbsp;`? If you remove the tag, the GitHub web markdown renderer adds an uncomfortable blue hyperlink underline between the horizontally stacked images, this fixes that. However, the iOS GitHub app still displays the line, I have yet to find a fix.
+>Those experienced with html may wonder, why the extra `h3` tag and `&nbsp;`? Without them, the GitHub web markdown renderer adds an uncomfortable blue hyperlink underline between the horizontally stacked images.
 
 
 ---
