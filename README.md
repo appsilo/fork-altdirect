@@ -79,26 +79,24 @@ Create a link using the parameters outlined above and insert it into the followi
 ```html
 <!-- you can set the alignment here to left/center/right -->
 <h3 align="center">
-<a href="https://altdirect.app/?url=https://example.com/source.json"><img src="https://altdirect.app/assets/png/AltSource_Blue.png" target="_blank" width="200">
-</a>
-<a href="https://example.com/app.ipa"><img src="https://altdirect.app/assets/png/Download_Blue.png" target="_blank" width="200">
-</a>
+<a href="https://altdirect.app/?url=https://example.com/source.json"><img src="https://altdirect.app/assets/png/AltSource_Blue.png" target="_blank" width="200"></a>
+&nbsp;
+<a href="https://example.com/app.ipa"><img src="https://altdirect.app/assets/png/Download_Blue.png" target="_blank" width="200"></a>
 </h3>
 ```
 
 Together, they appear as:
 
 <h3 align="center">
-<a href="https://altdirect.app/?url=https://example.com/source.json" target="_blank"><img src="https://altdirect.app/assets/png/AltSource_Blue.png" width="200">
-</a>
-<a href="https://example.com/app.ipa" target="_blank"><img src="https://altdirect.app/assets/png/Download_Blue.png" width="200"
-</a>
+<a href="https://altdirect.app/?url=https://example.com/source.json" target="_blank"><img src="https://altdirect.app/assets/png/AltSource_Blue.png" width="200"></a>
+&nbsp;
+<a href="https://example.com/app.ipa" target="_blank"><img src="https://altdirect.app/assets/png/Download_Blue.png" width="200"</a>
 </h3>
 
 Pretty nice, huh?
 
 >[!WARNING]
->Those experienced with html may wonder, why the extra `h3` tag? If you remove the tag, the GitHub web markdown renderer adds an uncomfortable blue hyperlink underline between the horizontally stacked images, this fixes that. However, the iOS GitHub app still displays the line, I have yet to find a fix.
+>Those experienced with html may wonder, why the extra `h3` tag and `&nbsp;`? If you remove the tag, the GitHub web markdown renderer adds an uncomfortable blue hyperlink underline between the horizontally stacked images, this fixes that. However, the iOS GitHub app still displays the line, I have yet to find a fix.
 
 
 ---
