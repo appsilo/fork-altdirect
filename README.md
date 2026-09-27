@@ -96,7 +96,7 @@ Together, they appear as:
 Pretty nice, huh?
 
 >[!WARNING]
->Those experienced with html may wonder, why the extra `h3` tag and `&nbsp;`? Without them, the GitHub web markdown renderer adds an uncomfortable blue hyperlink underline between the horizontally stacked images.
+>Those experienced with html may wonder, why is there an extra `h3` tag and `&nbsp;`? Without them, the GitHub  markdown renderer adds an uncomfortable blue hyperlink underline between the horizontally stacked images.
 
 
 ---
